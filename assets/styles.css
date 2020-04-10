@@ -1,3 +1,17 @@
 .bxl-facebook-square {
     color: blue;
 }
+
+.my-col {
+    border: solid red;
+}
+
+.my-row {
+    height: 75vh;
+    border: dotted blue;
+}
+
+.thin-row {
+    height: 20vh;
+    border: dotted green;
+}
