@@ -1,49 +1,62 @@
+body {
+    /*background-color: black !important;*/
+    background-image: url("./bush.png");
+    /*background-size: contain;*/
+}
+
+h1 {
+    font-family: 'Homemade Apple', cursive;
+}
+
 .bxl-facebook-square {
     color: blue;
 }
 
 .my-row {
     height: 90vh;
-    border: solid blue;
+    /*border: solid blue;*/
 }
 
 .my-row2 {
     height: 30vh;
-    border: solid blue;
+    /*border: solid blue;*/
 }
 
 .my-row3 {
     height: 40vh;
-    border: solid blue;
+    /*border: solid blue;*/
 }
 
 .my-row-hero {
     height: 60vh;
-    border: solid blue;
+    /*border: solid blue;*/
 }
 
 .thin-row {
+    margin-top: 20px;
     height: 10vh;
-    border: solid blue;
+    /*border: solid blue;*/
 }
 
 .my-col {
-    border: solid red;
+    /*border: solid red;*/
 }
 
 .navbar {
     font-family: 'Homemade Apple', cursive;
 }
 
-.hero-image {
-    width: 50px;
-}
+/*.hero-image {
+        height: 100%;
+        width: 100%;
+        margin-bottom: 25px;
+        background-image: url("./coffeelaptop.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+}*/
 
-body {
-    /*background-color: black !important;*/
-    background-image: url("./bush.png");
-    /*background-size: contain;*/
-}
+
 
 /*font-family: 'Patrick Hand SC', cursive;
 font-family: 'Homemade Apple', cursive;
