@@ -4,14 +4,19 @@ body {
     /*background-size: contain;*/
 }
 
+.contact {
+    color: #1469a2!important;
+}
+
 h1,
 h5,
 footer {
     font-family: 'Homemade Apple', cursive;
 }
 
-footer {
-    margin-top: 20px;
+.navbar {
+    color: white!important;
+    font-family: 'Homemade Apple', cursive;
 }
 
 .my-row {
@@ -21,12 +26,13 @@ footer {
 
 .my-row2 {
     height: 30vh;
-    margin-bottom: 25px;
+    margin-bottom: 40px;
     /*border: solid blue;*/
 }
 
 .my-row3 {
     height: 40vh;
+    margin-bottom: 45px;
     /*border: solid blue;*/
 }
 
@@ -45,11 +51,11 @@ footer {
     /*border: solid red;*/
 }
 
-.navbar {
-    font-family: 'Homemade Apple', cursive;
-}
-
-.fa {
+.fa-linkedin,
+.fa-github,
+.fa-facebook,
+.fa-instagram,
+.fa-youtube {
     margin-bottom: 15px;
     padding: 15px;
     width: 65px;
@@ -60,9 +66,14 @@ footer {
     /*border-radius: 50%;*/
 }
 
-.fa:hover {
+.fa-linkedin:hover,
+.fa-github:hover,
+.fa-facebook:hover,
+.fa-instagram:hover,
+.fa-youtube:hover {
     text-decoration: none;
-    color: lightskyblue;
+    background-color: black;
+    color: white;
 }
 
 .fa-linkedin {
@@ -78,15 +89,20 @@ footer {
 }
 
 .fa-instagram {
-    background-color: #cd486b;
+    background-color:palevioletred;
 }
 
-/*.hero-image {
-        height: 100%;
-        width: 100%;
-        margin-bottom: 25px;
-        background-image: url("./coffeelaptop.jpg");
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-}*/
+.fa-youtube {
+    background-color: red;
+}
+
+.fa-map-marker:hover,
+.fa-phone:hover,
+.fa-envelope:hover {
+    color: black;
+}
+
+.btn-primary {
+    background-color: #1469a2!important;
+    color: white!important;
+}
