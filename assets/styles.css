@@ -8,10 +8,6 @@ h1 {
     font-family: 'Homemade Apple', cursive;
 }
 
-.bxl-facebook-square {
-    color: blue;
-}
-
 .my-row {
     height: 90vh;
     /*border: solid blue;*/
@@ -19,6 +15,7 @@ h1 {
 
 .my-row2 {
     height: 30vh;
+    margin-bottom: 25px;
     /*border: solid blue;*/
 }
 
@@ -44,6 +41,38 @@ h1 {
 
 .navbar {
     font-family: 'Homemade Apple', cursive;
+}
+
+.fa {
+    margin-bottom: 15px;
+    padding: 15px;
+    width: 65px;
+    font-size: 35px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    /*border-radius: 50%;*/
+}
+
+.fa:hover {
+    text-decoration: none;
+    color: lightskyblue;
+}
+
+.fa-linkedin {
+    background-color:#0e76a8;
+}
+
+.fa-github {
+    background-color:#F1502F;
+}
+
+.fa-facebook {
+    background-color: #3b5998;
+}
+
+.fa-instagram {
+    background-color: #cd486b;
 }
 
 /*.hero-image {
