@@ -1,11 +1,17 @@
 body {
-    /*background-color: black !important;*/
+    font-family: 'Quicksand', sans-serif !important;
     background-image: url("./bush.png");
     /*background-size: contain;*/
 }
 
-h1 {
+h1,
+h5,
+footer {
     font-family: 'Homemade Apple', cursive;
+}
+
+footer {
+    margin-top: 20px;
 }
 
 .my-row {
@@ -30,7 +36,7 @@ h1 {
 }
 
 .thin-row {
-    margin-top: 20px;
+    margin-top: 30px;
     height: 10vh;
     /*border: solid blue;*/
 }
@@ -84,12 +90,3 @@ h1 {
         background-position: center;
         background-repeat: no-repeat;
 }*/
-
-
-
-/*font-family: 'Patrick Hand SC', cursive;
-font-family: 'Homemade Apple', cursive;
-font-family: 'Sue Ellen Francisco', cursive;
-font-family: 'La Belle Aurore', cursive;
-font-family: 'Cedarville Cursive', cursive;
-font-family: 'Walter Turncoat', cursive;*/
