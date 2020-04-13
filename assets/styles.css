@@ -20,30 +20,33 @@ footer {
 }
 
 .my-row {
-    height: 90vh;
-    /*border: solid blue;*/
+    height: 90%;
+    /*border: solid hotpink;*/
 }
 
 .my-row2 {
-    height: 30vh;
+    height: 30%;
     margin-bottom: 40px;
-    /*border: solid blue;*/
+    /*border: solid purple;*/
 }
 
 .my-row3 {
-    height: 40vh;
-    margin-bottom: 45px;
-    /*border: solid blue;*/
+    height: 40%;
+    margin-bottom: 30px;
+    /*border: solid orange;*/
 }
 
 .my-row-hero {
-    height: 60vh;
-    /*border: solid blue;*/
+    height: 60%;
+    margin-bottom: 30px;
+    /*border: solid green;*/
 }
 
 .thin-row {
+    margin-bottom: 30px;
     margin-top: 30px;
-    height: 10vh;
+    height: 10%;
+    padding: 20px;
     /*border: solid blue;*/
 }
 
