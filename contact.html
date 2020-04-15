@@ -29,86 +29,115 @@
         </div>
     </nav>
     <div class="container my-container">
+
+        <!--FIRST ROW-->
         <div class="row thin-row d-flex justify-content-center">
             <header>
                 <h1>Contact</h1>
             </header>
         </div>
-        <div class="row my-row d-flex justify-content-center">
-            <div class="col-10 my-col d-flex justify-content-center">
-                <section class="mb-4">
-                    <p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you within
-                        a matter of hours to help you.</p>
-                    <div class="row">
-                        <div class="col-md-9 mb-md-0 mb-5">
-                            <form id="contact-form" name="contact-form" action="mail.php" method="POST">
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <div class="md-form mb-0">
-                                            <input type="text" id="name" name="name" class="form-control">
-                                            <label for="name" class="">Your name</label>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="md-form mb-0">
-                                            <input type="text" id="email" name="email" class="form-control">
-                                            <label for="email" class="">Your email</label>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <div class="md-form mb-0">
-                                            <input type="text" id="subject" name="subject" class="form-control">
-                                            <label for="subject" class="">Subject</label>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <div class="md-form">
-                                            <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
-                                            <label for="message">Your message</label>
-                                        </div>
-                                    </div>
-                                </div>
-                            </form>
-                            <div class="text-center text-md-left">
-                                <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
-                            </div>
-                            <div class="status"></div>
-                        </div>
-                        <div class="col-md-3 text-center">
-                            <ul class="list-unstyled mb-0">
-                                <li><a href="https://www.google.com/maps/place/Houston,+TX+77054/@29.681496,-95.4433694,13z/data=!3m1!4b1!4m5!3m4!1s0x8640c01d4be3966f:0xe4d769ccefee11df!8m2!3d29.6849782!4d-95.3991907" class="contact" target="blank"><i class="fa fa-map-marker fa-2x"></i></a>
-                                    <p>Houston, TX 77054, USA</p>
-                                </li>
-                                <li><a href="tel:1-281-330-8004" class="contact"><i class="fa fa-phone mt-4 fa-2x"></i></a>
-                                    <p>281-330-8004</p>
-                                </li>
-                                <li><a href="mailto:iescan4@gmail.com" class="contact"><i class="fa fa-envelope mt-4 fa-2x"></i></a>
-                                    <p>iescan4@gmail.com</p>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
+
+        <!--SECOND ROW-->
+        <div class="row thin-row2 d-flex justify-content-center">
+            <div class="col my-col">
+                <section>
+                Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you within
+                a matter of hours to help you.
                 </section>
             </div>
-            <div class="col-2 my-col d-flex justify-content-center">
-                <aside>
+        </div>
+
+        <!--THIRD ROW-->
+        <div class="row my-row d-flex justify-content-center">
+            <!--COLUMN 1-->
+            <div class="col-md-9 my-col d-flex justify-content-center">
+                <form id="contact-form" name="contact-form" action="mail.php" method="POST">    
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="md-form mb-0">
+                                <input type="text" id="name" name="name" class="form-control">
+                                <label for="name" class="">Your name</label>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="md-form mb-0">
+                                <input type="text" id="email" name="email" class="form-control">
+                                <label for="email" class="">Your email</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="md-form mb-0">
+                                <input type="text" id="subject" name="subject" class="form-control">
+                                <label for="subject" class="">Subject</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="md-form">
+                                <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                                <label for="message">Your message</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="text-center text-md-left">
+                                    <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
+                        </div>
+                        <div class="status"></div>
+                    </div>
+                </form>
+            </div>
+            <!--COLUMN 2-->
+            <div class="col-md-3 my-col d-flex justify-content-center">
+                <section>
                     <ul>
+                        <li><a href="https://www.google.com/maps/place/Houston,+TX+77054/@29.681496,-95.4433694,13z/data=!3m1!4b1!4m5!3m4!1s0x8640c01d4be3966f:0xe4d769ccefee11df!8m2!3d29.6849782!4d-95.3991907" class="contact" target="blank"><span class="fa fa-map-marker fa-2x"></span></a>
+                            <p>Houston, TX 77054, USA</p>
+                        </li>
+                        <li><a href="tel:1-281-330-8004" class="contact"><span class="fa fa-phone mt-4 fa-2x"></span></a>
+                            <p>281-330-8004</p>
+                        </li>
+                        <li><a href="mailto:iescan4@gmail.com" class="contact"><span class="fa fa-envelope mt-4 fa-2x"></span></a>
+                            <p>iescan4@gmail.com</p>
+                        </li>
+                    </ul>
+                </section>
+            </div>
+        </div>
+        <!--<div class="row thin-row d-flex justify-content-center">
+            <div class="col-md-12 my-col d-flex justify-content-center">
+                <section>
+                    <ul class="menu">
                         <li><a href="https://www.linkedin.com/in/inez-escandon/" target="_blank" class="fa fa-linkedin"></a></li>
                         <li><a href="https://github.com/iescandon" target="_blank" class="fa fa-github"></a></li>
                         <li><a href="https://www.facebook.com/profile.php?id=7959861&ref=bookmarks" target="_blank" class="fa fa-facebook"></a></li>
                         <li><a href="https://www.instagram.com/inescandon/?hl=en" target="_blank" class="fa fa-instagram"></a></li>
                         <li><a href="https://www.youtube.com/channel/UCvMwNxbeTES6PyCS4DfEjFA" target="blank" class="fa fa-youtube"></a></li>
                     </ul>
-                </aside>
-            </div>
+                </section>
+            </div>-->
         </div>
+        <!--FOURTH ROW-->
         <div class="row thin-row d-flex justify-content-center">
-            <footer>
-                &copy; Copyright 2020
+            <div class="container my-container">
+                <footer class="navbar navbar-light fixed-bottom" style="background-color:white">
+                    <div class="col-4 my-col">
+                        <p class="copy">&copy; Copyright 2020</p>
+                    </div>
+                    <div class="col-4 my-col">
+                        <section>
+                            <ul class="menu">
+                                <li><a href="https://www.linkedin.com/in/inez-escandon/" target="_blank" class="fa fa-linkedin"></a></li>
+                                <li><a href="https://github.com/iescandon" target="_blank" class="fa fa-github"></a></li>
+                                <li><a href="https://www.facebook.com/profile.php?id=7959861&ref=bookmarks" target="_blank" class="fa fa-facebook"></a></li>
+                                <li><a href="https://www.instagram.com/inescandon/?hl=en" target="_blank" class="fa fa-instagram"></a></li>
+                                <li><a href="https://www.youtube.com/channel/UCvMwNxbeTES6PyCS4DfEjFA" target="blank" class="fa fa-youtube"></a></li>
+                            </ul>
+                        </section>
+                    </div>
             </footer>
         </div>
     </div>

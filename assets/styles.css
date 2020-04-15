@@ -4,6 +4,20 @@ body {
     /*background-size: contain;*/
 }
 
+p,
+span {
+    text-align: center;
+    margin-bottom: 0rem;
+}
+
+ul {
+    margin-bottom: 0rem;
+}
+
+li {
+    text-align: center!important;
+}
+
 .contact {
     color: #1469a2!important;
 }
@@ -54,6 +68,12 @@ h1.name {
     /*border: solid blue;*/
 }
 
+.thin-row2 {
+    height: 5%;
+    margin-bottom: 30px;
+    /*border: solid blue;*/
+}
+
 .my-col {
     /*border: solid red;*/
 }
@@ -63,10 +83,10 @@ h1.name {
 .fa-facebook,
 .fa-instagram,
 .fa-youtube {
-    margin-bottom: 15px;
-    padding: 15px;
-    width: 65px;
-    font-size: 35px;
+    margin-bottom: 5px;
+    padding: 10px;
+    width: 40px;
+    font-size: 20px;
     text-align: center;
     text-decoration: none;
     color: white;
@@ -96,7 +116,7 @@ h1.name {
 }
 
 .fa-instagram {
-    background-color:palevioletred;
+    background-color: #fc77ae;
 }
 
 .fa-youtube {
@@ -113,3 +133,19 @@ h1.name {
     background-color: #1469a2!important;
     color: white!important;
 }
+
+ul.menu li {
+    display: inline;
+}
+
+.copy {
+    color: black;
+}
+
+/*.my-col {
+    border: red solid 5px;
+}
+
+.row {
+    border: red solid 5px;
+}*/
