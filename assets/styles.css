@@ -7,7 +7,7 @@ body {
 p,
 span {
     text-align: center;
-    margin-bottom: 0rem;
+    margin-bottom: 5px;
 }
 
 ul {
@@ -83,7 +83,7 @@ h1.name {
 .fa-facebook,
 .fa-instagram,
 .fa-youtube {
-    margin-bottom: 5px;
+
     padding: 10px;
     width: 40px;
     font-size: 20px;
