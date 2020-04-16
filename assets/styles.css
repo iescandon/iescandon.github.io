@@ -24,7 +24,8 @@ li {
 
 h1,
 h5,
-footer {
+footer,
+.navbar {
     font-family: 'Homemade Apple', cursive;
 }
 
@@ -34,7 +35,13 @@ h1.name {
 
 .navbar {
     color: white!important;
-    font-family: 'Homemade Apple', cursive;
+    background-color: #1469a2;
+}
+
+#footer {
+    color: black!important;
+    background-color: white;
+    font-size: 14px;
 }
 
 .my-row {
