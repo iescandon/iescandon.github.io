@@ -9,10 +9,8 @@ footer,
     font-family: 'Homemade Apple', cursive;
 }
 
-p,
-span {
-    text-align: center;
-    margin-bottom: 5px;
+label {
+    margin-bottom: 0rem;
 }
 
 ul {
@@ -54,6 +52,11 @@ li {
 .fa-phone:hover,
 .fa-envelope:hover {
     color: black;
+}
+
+.copyright {
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .fa-linkedin,
@@ -110,7 +113,7 @@ li {
 }
 
 #row-bottom {
-    padding-bottom: 120px;
+    padding-bottom: 100px;
 }
 
 #footer {
