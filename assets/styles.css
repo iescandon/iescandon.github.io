@@ -1,7 +1,6 @@
 body {
     font-family: 'Quicksand', sans-serif !important;
     background-image: url("./bush.png");
-    /*background-size: contain;*/
 }
 
 p,
@@ -23,7 +22,6 @@ li {
 }
 
 h1,
-h5,
 footer,
 .navbar {
     font-family: 'Homemade Apple', cursive;
@@ -61,7 +59,7 @@ h1.name {
     /*border: solid orange;*/
 }
 
-.my-row-hero {
+.row-hero {
     height: 60%;
     margin-bottom: 30px;
     /*border: solid green;*/
