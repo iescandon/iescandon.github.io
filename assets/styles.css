@@ -122,6 +122,6 @@ li {
 @media screen and (max-width: 575px;) {
     
     .fixed-bottom {
-        position: relative;
+        position: relative!important;
     }
 }
