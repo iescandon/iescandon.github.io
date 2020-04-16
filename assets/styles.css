@@ -3,6 +3,12 @@ body {
     background-image: url("./bush.png");
 }
 
+h1,
+footer,
+.navbar {
+    font-family: 'Homemade Apple', cursive;
+}
+
 p,
 span {
     text-align: center;
@@ -17,70 +23,37 @@ li {
     text-align: center!important;
 }
 
-.contact {
-    color: #1469a2!important;
-}
-
-h1,
-footer,
-.navbar {
-    font-family: 'Homemade Apple', cursive;
-}
-
-h1.name {
-    font-size: 20px;
-}
-
 .navbar {
     color: white!important;
     background-color: #1469a2;
 }
 
-#footer {
-    color: black!important;
-    background-color: white;
-    font-size: 14px;
-}
-
-.my-row {
-    height: 90%;
-    /*border: solid hotpink;*/
-}
-
-.my-row2 {
-    height: 30%;
-    margin-bottom: 40px;
-    /*border: solid purple;*/
-}
-
-.my-row3 {
-    height: 40%;
-    margin-bottom: 30px;
-    /*border: solid orange;*/
-}
-
 .row-hero {
-    height: 60%;
-    margin-bottom: 30px;
-    /*border: solid green;*/
+    margin-bottom: 20px;
 }
 
-.thin-row {
-    margin-bottom: 30px;
-    margin-top: 30px;
-    height: 10%;
-    padding: 20px;
-    /*border: solid blue;*/
+.row-style {
+    margin-top: 20px;
+    padding: 5px;
 }
 
-.thin-row2 {
-    height: 5%;
-    margin-bottom: 30px;
-    /*border: solid blue;*/
+.about-me-header{
+    font-size: 20px;
 }
 
-.my-col {
-    /*border: solid red;*/
+.btn {
+    background-color: #1469a2!important;
+    color: white!important;
+}
+
+.fa-icons {
+    color: #1469a2!important;
+}
+
+.fa-map-marker:hover,
+.fa-phone:hover,
+.fa-envelope:hover {
+    color: black;
 }
 
 .fa-linkedin,
@@ -128,29 +101,27 @@ h1.name {
     background-color: red;
 }
 
-.fa-map-marker:hover,
-.fa-phone:hover,
-.fa-envelope:hover {
-    color: black;
-}
-
-.btn-primary {
-    background-color: #1469a2!important;
-    color: white!important;
-}
-
-ul.menu li {
+.menu li {
     display: inline;
 }
 
-.copy {
-    color: black;
+#header {
+    padding-top: 25px;
 }
 
-/*.my-col {
-    border: red solid 5px;
+#row-bottom {
+    padding-bottom: 120px;
 }
 
-.row {
-    border: red solid 5px;
-}*/
+#footer {
+    color: black!important;
+    background-color: white;
+    font-size: 14px;
+}
+
+@media screen and (max-width: 575px;) {
+    
+    .fixed-bottom {
+        position: relative;
+    }
+}

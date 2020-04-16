@@ -29,16 +29,16 @@
             </div>
         </div>
     </nav>
-    <div class="container my-container">
+    <div class="container">
         <!--FIRST ROW: HEADER-->
-        <div class="row thin-row justify-content-center">
+        <div class="row row-style justify-content-center" id="header">
             <header>
                 <h1>Contact</h1>
             </header>
         </div>
         <!--SECOND ROW: TEXT BELOW HEADER-->
-        <div class="row thin-row2">
-            <div class="col my-col text-center">
+        <div class="row row-style">
+            <div class="col text-center">
                 <section>
                 Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you within
                 a matter of hours to help you.
@@ -46,9 +46,9 @@
             </div>
         </div>
         <!--THIRD ROW-->
-        <div class="row my-row">
+        <div class="row row-style" id="row-bottom">
             <!--COLUMN 1: CONTACT FORM-->
-            <div class="col-md-9 my-col justify-content-center">
+            <div class="col-md-9 justify-content-center">
                 <form id="contact-form" name="contact-form" method="POST">    
                     <div class="row">
                         <div class="col-md-6">
@@ -85,42 +85,42 @@
                 </form>
             </div>
             <!--COLUMN 2: FA CONTACT ICONS-->
-            <div class="col-md-3 my-col justify-content-center">
+            <div class="col-md-3 justify-content-center">
                 <section>
                     <ul>
-                        <li><a href="https://www.google.com/maps/place/Houston,+TX+77054/@29.681496,-95.4433694,13z/data=!3m1!4b1!4m5!3m4!1s0x8640c01d4be3966f:0xe4d769ccefee11df!8m2!3d29.6849782!4d-95.3991907" class="contact" target="blank"><span class="fa fa-map-marker fa-2x"></span></a>
+                        <li><a href="https://www.google.com/maps/place/Houston,+TX+77054/@29.681496,-95.4433694,13z/data=!3m1!4b1!4m5!3m4!1s0x8640c01d4be3966f:0xe4d769ccefee11df!8m2!3d29.6849782!4d-95.3991907" class="fa-icons" target="blank"><span class="fa fa-map-marker fa-2x"></span></a>
                             <p>Houston, TX 77054, USA</p>
                         </li>
-                        <li><a href="tel:1-281-330-8004" class="contact"><span class="fa fa-phone mt-4 fa-2x"></span></a>
+                        <li><a href="tel:1-281-330-8004" class="fa-icons"><span class="fa fa-phone mt-4 fa-2x"></span></a>
                             <p>281-330-8004</p>
                         </li>
-                        <li><a href="mailto:iescan4@gmail.com" class="contact"><span class="fa fa-envelope mt-4 fa-2x"></span></a>
+                        <li><a href="mailto:iescan4@gmail.com" class="fa-icons"><span class="fa fa-envelope mt-4 fa-2x"></span></a>
                             <p>iescan4@gmail.com</p>
                         </li>
                     </ul>
                 </section>
             </div>
         </div>
-        <!--FOOTER-->
-        <footer class="navbar fixed-bottom" id="footer">
-            <div class="container my-container">
-                <div class="col-md-6 col-sm-5 my-col text-center">
-                    <p class="copy">&copy; Copyright 2020</p>
-                </div>
-                <div class="col-md-6 col-sm-7 my-col text-center">
-                    <section>
-                        <ul class="menu">
-                            <li><a href="https://www.linkedin.com/in/inez-escandon/" target="_blank" class="fa fa-linkedin"></a></li>
-                            <li><a href="https://github.com/iescandon" target="_blank" class="fa fa-github"></a></li>
-                            <li><a href="https://www.facebook.com/profile.php?id=7959861&ref=bookmarks" target="_blank" class="fa fa-facebook"></a></li>
-                            <li><a href="https://www.instagram.com/inescandon/?hl=en" target="_blank" class="fa fa-instagram"></a></li>
-                            <li><a href="https://www.youtube.com/channel/UCvMwNxbeTES6PyCS4DfEjFA" target="blank" class="fa fa-youtube"></a></li>
-                        </ul>
-                    </section>
-                </div>
-            </div>
-        </footer>
     </div>
+    <!--FOOTER-->
+    <footer class="navbar fixed-bottom" id="footer">
+        <div class="container">
+            <div class="col-md-6 col-sm-5 text-center">
+                <p class="copyright">&copy; Copyright 2020</p>
+            </div>
+            <div class="col-md-6 col-sm-7 text-center">
+                <section>
+                    <ul class="menu">
+                        <li><a href="https://www.linkedin.com/in/inez-escandon/" target="_blank" class="fa fa-linkedin"></a></li>
+                        <li><a href="https://github.com/iescandon" target="_blank" class="fa fa-github"></a></li>
+                        <li><a href="https://www.facebook.com/profile.php?id=7959861&ref=bookmarks" target="_blank" class="fa fa-facebook"></a></li>
+                        <li><a href="https://www.instagram.com/inescandon/?hl=en" target="_blank" class="fa fa-instagram"></a></li>
+                        <li><a href="https://www.youtube.com/channel/UCvMwNxbeTES6PyCS4DfEjFA" target="blank" class="fa fa-youtube"></a></li>
+                    </ul>
+                </section>
+            </div>
+        </div>
+    </footer>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
