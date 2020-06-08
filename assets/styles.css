@@ -243,6 +243,30 @@ li {
     padding-bottom: 20px;
 }
 
+@media only screen and (max-width: 767px) {
+    .display-4 {
+        padding-top: 75px;
+        font-size: 80px;
+    }
+    .lead {
+        font-size: 18px;
+    }
+    .jumbotron {
+        height: 300px;
+    }
+
+    .fa-linkedin,
+    .fa-github,
+    .fa-facebook,
+    .fa-instagram,
+    .fa-youtube {
+        font-size: 10px;
+        padding: 5px;
+        width: 20px;
+    }
+
+}
+
 @media only screen and (max-width: 575px) {
     .jumbotron {
         height: 275px;
@@ -259,4 +283,48 @@ li {
     #otherH1 {
         padding-top: 64px;
     }
+
+    .fa-linkedin,
+    .fa-github,
+    .fa-facebook,
+    .fa-instagram,
+    .fa-youtube {
+        font-size: 10px;
+        padding: 5px;
+        width: 20px;
+    }
+
+}
+
+@media only screen and (max-width: 498px) {
+    .lead {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 475px) {
+    .display-4 {
+        padding-top: 50px;
+        font-size: 60px;
+    }
+    .lead {
+        font-size: 12px;
+    }
+    a.btn,
+    p,
+    li,
+    label {
+        font-size: 10px;
+    }
+    p img {
+        height: 45px;
+    }
+    .jumbotron {
+        height: 250px;
+    }
+
+    .under-hero {
+        margin-top: 225px;
+    }
+
 }
