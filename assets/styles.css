@@ -231,9 +231,32 @@ li {
 
 .under-hero {
     margin-top: 350px;
-
 }
 
 #otherH1 {
     padding-top: 50px;
+}
+
+
+.my-col {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+@media only screen and (max-width: 575px) {
+    .jumbotron {
+        height: 275px;
+    }
+    .under-hero {
+        margin-top: 250px;
+    }
+
+    .display-4 {
+        padding-top: 50px;
+        font-size: 80px;
+    }
+
+    #otherH1 {
+        padding-top: 64px;
+    }
 }
