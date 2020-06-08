@@ -8,13 +8,29 @@ body {
 .list-group-item.active {
     background-color: #024E7D!important;
     border-color: #024E7D!important;
+    /* background-color: transparent!important;
+    border-color: transparent!important;
+    color: black; */
 }
+
+/* a img { 
+    display: none;
+} */
+
+/* a:hover img {
+    display: block;
+    width: 100%;
+} */
 
 h1,
 footer,
 .navbar {
     font-family: 'Montserrat', sans-serif;
     background-color: transparent;
+}
+
+h4 {
+    margin-bottom: 20px;
 }
 
 label {
@@ -65,10 +81,15 @@ li {
     -webkit-box-ordinal-group: 3;
     -ms-flex-order: 2;
     /* order: 2; */
-    padding-top: 1.5rem;
+    /* padding-top: 1.5rem; */
     padding-bottom: 1.5rem;
     font-size: .875rem;
 }
+
+/* .bd-toc img {
+    margin: auto;    
+    display: block;
+} */
 
 .display-4 {
     padding-top: 30px;
@@ -193,6 +214,10 @@ li {
     padding-bottom: 125px;
 }
 
+.about-text {
+    margin-top: 75px;
+}
+
 #header {
     padding-top: 25px;
 }
@@ -204,8 +229,8 @@ li {
     font-size: 14px;
 }
 
-#about-me {
-    margin-top: 325px;
+.under-hero {
+    margin-top: 350px;
 
 }
 

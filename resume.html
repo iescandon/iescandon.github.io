@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="shortcut icon" type="image/png" href="./assets/pink heart.png" />
+        <link rel="shortcut icon" type="image/png" href="./assets/images/pink heart.png" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="./assets/reset.css" type="text/css" />
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -40,30 +40,117 @@
             </div>
         </div>
     <div class="container">
-        <div class="row" id="about-me">
+        <!-- SECOND ROW: RESUME INFO -->
+        <div class="row under-hero">
+             <!-- FIRST COLUMN: RESUME NAV -->
             <div class="d-none d-xl-block col-3 bd-toc">
+                <div>
+                    <img src="assets/images/jonahpic.jpg" alt="" width="100%" class="mb-3"/>
+                </div>
+                <div class="mb-4 text-center">
+                    <a href="./assets/resume.pdf" download>DOWNLOAD RESUME PDF</a>
+                </div>
                 <div id="list-example" class="list-group list-group-flush">
-                    <a class="list-group-item list-group-item-action text-center" href="#list-item-1">Education</a>
-                    <a class="list-group-item list-group-item-action text-center" href="#list-item-2">Professional Experience</a>
-                    <a class="list-group-item list-group-item-action text-center" href="#list-item-3">Skills</a>
-                    <a class="list-group-item list-group-item-action text-center" href="#list-item-4">Hobbies</a>
+                    <a class="list-group-item list-group-item-action text-center item1" href="#list-item-1">Objective</a>
+                    <a class="list-group-item list-group-item-action text-center item2" href="#list-item-2">Experience</a>
+                    <a class="list-group-item list-group-item-action text-center item3" href="#list-item-3">Skills</a>
+                    <a class="list-group-item list-group-item-action text-center item4" href="#list-item-4">Education</a>
+                    <a class="list-group-item list-group-item-action text-center item5" href="#list-item-5">Hobbies</a>
                 </div>
             </div>
-
+            <!-- SECOND COLUMN: RESUME TEXT -->
             <div class="col-9 pl-5">
-                <div data-spy="scroll" data-target="#list-example" data-offset="0" class="scrollspy-example">
-                    <h4 id="list-item-1" data-name="education">EDUCATION</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias nulla, consequuntur inventore eaque nostrum voluptatum quas in, ducimus doloremque accusantium odio corporis asperiores delectus quae laboriosam earum aliquid dolore debitis!</p>
-                    <br><br><br><br><br><br><br><br><br><br>
-                    <h4 id="list-item-2" data-name="experience">PROFESSIONAL EXPERIENCE</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem modi quidem obcaecati quaerat animi a quod fuga libero, totam ut qui necessitatibus molestias recusandae quae eligendi facilis quo non perspiciatis!</p>
-                    <br><br><br><br><br><br><br><br><br><br>
+                <!-- <div data-spy="scroll" data-target="#list-example" data-offset="0" class="scrollspy-example"> -->
+                <div>
+                    <h4 id="list-item-1" data-name="education">OBJECTIVE</h4>
+                    <p>Looking to leverage ten years experience as an educator to quickly learn and grow in a web development career. Because of her professionalism and strong work ethic, she has been put into leadership roles and been asked to mentor other teachers.  As an educator, she has proved her strong organizational/communication skills and ability to effectively multitask/manage challenging tasks all while achieving the goals in a fast-paced work environment. A highly motivated self-starter who is fully committed to proving herself in a new career, she would be a great asset to any company.</p>
+                    <br><br><br>
+                    <h4 id="list-item-2" data-name="experience">EXPERIENCE</h4>
+                        <p>
+                        <strong>Physical Education Teacher, Deer Park ISD</strong><br>
+                        Pasadena, TX (Aug 2017 - Aug 2020)<br>
+                        </p>
+                        <br>
+
+                        <p>
+                        <strong>Bilingual Teacher, Deer Park ISD</strong><br>
+                        Pasadena, TX (Aug 2014 - Aug 2017)<br>
+                        </p>
+                        <br>
+
+                        <p>
+                        <strong>Instructional Technology Specialist, Sheldon ISD</strong><br>
+                        Sheldon, TX (Aug 2013 - Aug 2014)<br>
+                        </p>
+                        <br>
+
+                        <p>
+                        <strong>Dual Language Teacher, North East ISD</strong><br>
+                        San Antonio, TX (Aug 2010 - Aug 2013)<br>
+                        </p>
+                    <br><br><br>
                     <h4 id="list-item-3" data-name="skills">SKILLS</h4>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab in sunt consequatur ut voluptas reiciendis esse deleniti quia, minus enim voluptatibus eligendi tempore at rem autem fugit dolorum optio ducimus.</p>
-                    <br><br><br><br><br><br><br><br><br><br>
-                    <h4 id="list-item-4" data-name="hobbies">HOBBIES</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium tempora, velit rem veritatis vel ipsam architecto debitis a! Amet, a possimus dolorem totam nemo iusto dolores minus magnam quos eligendi.</p>
-                    <br><br><br><br><br><br><br><br><br><br>
+                    <div class="row">
+                        <div class="col">
+                            <ul>
+                                <li><strong>Technical Skills</strong></li>
+                                <li>- HTML</li>
+                                <li>- CSS</li>
+                                <li>- Bootstrap CSS</li>
+                                <li>- Materialize CSS</li>
+                                <li>- Javascript</li>
+                                <li>- JSON</li>
+                                <li>- jQuery</li>
+                                <li>- AJAX</li>
+                                <li>- REST API</li>
+                                <li>- Node.js</li>
+                                <li>- UI/UX Design</li>
+                            </ul>
+                        </div>
+                        <div class="col">
+                            <ul>
+                                <li><strong>Additional Skills</strong></li>
+                                <li>- Bilingual (English & Spanish)</li>
+                                <li>- Leadership/Takes Initiative</li>
+                                <li>- Strong Problem Solving Abilities</li>
+                                <li>- Ability to Work in a Team/Adaptable</li>
+                                <li>- High Attention to Detail</li>
+                                <li>- Effective Communication</li>
+                                <li>- Energetic Work Attitude</li>
+                                <li>- Creative and Innovative Thinking</li>
+                                <li>- Quick Learner</li>
+                            </ul>
+                        </div>
+                        </div>
+                    </div>
+                    <br><br><br>
+                    <h4 id="list-item-4" data-name="education">EDUCATION</h4>
+                    <div class="row">
+                        <p class="col">
+                        <strong>University of Texas at Austin</strong><br>
+                        Austin, TX (May 2010)<br>
+                        Bachelors in Bilingual Education
+                        </p>
+                        <p class="col">
+                            <img src="assets/images/longhorn.png" alt="" height="72px"/>
+                        </p>
+                    </div>
+                    <br>
+                    <div class="row">
+                        <p class="col">
+                        <strong>University of Texas at San Antonio</strong><br>
+                        San Antonio, TX (May 2013)<br>
+                        Masters in Instructional Technology
+                        </p>
+                        <p class="col">
+                            <img src="assets/images/rowdy.png" alt="" height="72px"/>
+                        </p>
+                    </div>
+                    <br><br><br>
+
+                    <h4 id="list-item-5" data-name="hobbies">HOBBIES</h4>
+                    <p>Fitness, Dance, Music, Mountain Biking, Brazilian Jiu Jitsu, & Mixology</p>
+                    <br><br><br>
                 </div>
             </div>
         </div>
@@ -74,23 +161,13 @@
             <div class="col text-center">
                 <p class="copyright d-none d-sm-block">&copy; Copyright 2020</p>
             </div>
-            <!-- <div class="col-md-6 col-sm-7 text-center">
-                <section>
-                    <ul class="menu">
-                        <li><a href="https://www.linkedin.com/in/inez-escandon/" target="_blank" class="fa fa-linkedin"></a></li>
-                        <li><a href="https://github.com/iescandon" target="_blank" class="fa fa-github"></a></li>
-                        <li><a href="https://www.facebook.com/profile.php?id=7959861" target="_blank" class="fa fa-facebook"></a></li>
-                        <li><a href="https://www.instagram.com/inescandon/?hl=en" target="_blank" class="fa fa-instagram"></a></li>
-                        <li><a href="https://www.youtube.com/channel/UCvMwNxbeTES6PyCS4DfEjFA" target="blank" class="fa fa-youtube"></a></li>
-                    </ul>
-                </section>
-            </div> -->
         </div>
     </footer>
     <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script> -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script> -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <script src="script.js"></script>
+    <script src="./assets/script.js"></script>
 </body>
 </html>
