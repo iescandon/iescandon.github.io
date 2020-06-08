@@ -1,43 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" type="image/png" href="./assets/pink heart.png" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="./assets/reset.css" type="text/css" />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Quicksand&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./assets/styles.css" type="text/css" />
-    <title>Contact Info</title> 
-</head>
-<body>
-    <!--NAVBAR-->
-    <nav class="navbar navbar-expand-lg navbar-dark">
-        <a class="navbar-brand">
-            <img src="./assets/pink heart.png" height="30px" alt="" />
-        Inez Escandon
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav ml-auto">
-            <a class="nav-item nav-link" href="./index.html">Homepage</a>
-            <a class="nav-item nav-link" href="./portfolio.html">Portfolio</a>
-            <a class="nav-item nav-link active" href="./contact.html">Contact</a>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" type="image/png" href="./assets/pink heart.png" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="./assets/reset.css" type="text/css" />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Red+Hat+Display:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&family=Rock+Salt&family=Sacramento&family=Satisfy&family=Syncopate:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./assets/styles.css" type="text/css" />
+        <title>Contact</title>
+    </head>
+    <body>
+        <!--NAVBAR-->
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <ul class="menu">
+                <li><a href="https://www.linkedin.com/in/inez-escandon/" target="_blank" class="fa fa-linkedin"></a></li>
+                <li><a href="https://github.com/iescandon" target="_blank" class="fa fa-github"></a></li>
+                <li><a href="https://www.facebook.com/profile.php?id=7959861" target="_blank" class="fa fa-facebook"></a></li>
+                <li><a href="https://www.instagram.com/inescandon/?hl=en" target="_blank" class="fa fa-instagram"></a></li>
+                <li><a href="https://www.youtube.com/channel/UCvMwNxbeTES6PyCS4DfEjFA" target="blank" class="fa fa-youtube"></a></li>
+            </ul>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav ml-auto">
+                <a class="nav-item nav-link" href="./index.html">ABOUT</a>
+                <a class="nav-item nav-link" href="./portfolio.html">PORTFOLIO</a>
+                <a class="nav-item nav-link" href="./resume.html">RESUME</a>
+                <a class="nav-item nav-link active" href="./contact.html">CONTACT</a>
+                </div>
+            </div>
+        </nav>
+            <!--FIRST ROW: HERO IMAGE-->
+        <div class="jumbotron jumbotron-fluid row-hero">
+           <div class="container">
+                <h1 class="display-4" id="otherH1">Contact</h1>
             </div>
         </div>
-    </nav>
     <div class="container">
         <!--FIRST ROW: HEADER-->
-        <div class="row row-style justify-content-center" id="header">
+        <!-- <div class="row row-style justify-content-center" id="header">
             <header>
-                <h1>Contact</h1>
+                <h1 class="gradient-h1">Contact</h1>
             </header>
-        </div>
+        </div> -->
         <!--SECOND ROW: TEXT BELOW HEADER-->
-        <div class="row row-style">
+        <div class="row row-style" id="about-me">
             <div class="col text-center">
                 <section>
                 Do you have any questions? Please do not hesitate to contact me directly. I will come back to you within
@@ -46,7 +56,7 @@
             </div>
         </div>
         <!--THIRD ROW-->
-        <div class="row row-style" id="row-bottom">
+        <div class="row row-style row-bottom">
             <!--COLUMN 1: CONTACT FORM-->
             <div class="col-md-9 justify-content-center">
                 <form id="contact-form" name="contact-form" method="POST">    
@@ -85,14 +95,14 @@
                 </form>
             </div>
             <!--COLUMN 2: FA CONTACT ICONS-->
-            <div class="col-md-3 justify-content-center">
+            <div class="col-md-3 text-center">
                 <section>
                     <ul>
                         <li><a href="https://www.google.com/maps/place/Houston,+TX+77054/@29.681496,-95.4433694,13z/data=!3m1!4b1!4m5!3m4!1s0x8640c01d4be3966f:0xe4d769ccefee11df!8m2!3d29.6849782!4d-95.3991907" class="fa-icons" target="blank"><span class="fa fa-map-marker fa-2x"></span></a>
                             <p>Houston, TX 77054, USA</p>
                         </li>
                         <li><a href="tel:1-281-330-8004" class="fa-icons"><span class="fa fa-phone mt-4 fa-2x"></span></a>
-                            <p>281-330-8004</p>
+                            <p>830-352-7507</p>
                         </li>
                         <li><a href="mailto:iescan4@gmail.com" class="fa-icons"><span class="fa fa-envelope mt-4 fa-2x"></span></a>
                             <p>iescan4@gmail.com</p>
@@ -103,12 +113,12 @@
         </div>
     </div>
     <!--FOOTER-->
-    <footer class="navbar fixed-bottom" id="footer">
+    <footer class="navbar" id="footer">
         <div class="container">
-            <div class="col-md-6 col-sm-5 text-center">
+            <div class="col text-center">
                 <p class="copyright d-none d-sm-block">&copy; Copyright 2020</p>
             </div>
-            <div class="col-md-6 col-sm-7 text-center">
+            <!-- <div class="col-md-6 col-sm-7 text-center">
                 <section>
                     <ul class="menu">
                         <li><a href="https://www.linkedin.com/in/inez-escandon/" target="_blank" class="fa fa-linkedin"></a></li>
@@ -118,10 +128,11 @@
                         <li><a href="https://www.youtube.com/channel/UCvMwNxbeTES6PyCS4DfEjFA" target="blank" class="fa fa-youtube"></a></li>
                     </ul>
                 </section>
-            </div>
+            </div> -->
         </div>
     </footer>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
+</html>

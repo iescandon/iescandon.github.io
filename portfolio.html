@@ -1,94 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" type="image/png" href="./assets/pink heart.png" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="./assets/reset.css" type="text/css" />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Quicksand&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./assets/styles.css" type="text/css" />
-    <title>Portfolio</title>
-</head>
-<body>
-    <!--NAVBAR-->
-    <nav class="navbar navbar-expand-lg navbar-dark">
-        <a class="navbar-brand">
-            <img src="./assets/pink heart.png" height="30px" alt="" />
-        Inez Escandon
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav ml-auto">
-            <a class="nav-item nav-link" href="./index.html">Homepage</a>
-            <a class="nav-item nav-link active" href="./portfolio.html">Portfolio</a>
-            <a class="nav-item nav-link" href="./contact.html">Contact</a>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" type="image/png" href="./assets/pink heart.png" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="./assets/reset.css" type="text/css" />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Red+Hat+Display:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&family=Rock+Salt&family=Sacramento&family=Satisfy&family=Syncopate:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./assets/styles.css" type="text/css" />
+        <title>Portfolio</title>
+    </head>
+    <body>
+        <!--NAVBAR-->
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <ul class="menu">
+                <li><a href="https://www.linkedin.com/in/inez-escandon/" target="_blank" class="fa fa-linkedin"></a></li>
+                <li><a href="https://github.com/iescandon" target="_blank" class="fa fa-github"></a></li>
+                <li><a href="https://www.facebook.com/profile.php?id=7959861" target="_blank" class="fa fa-facebook"></a></li>
+                <li><a href="https://www.instagram.com/inescandon/?hl=en" target="_blank" class="fa fa-instagram"></a></li>
+                <li><a href="https://www.youtube.com/channel/UCvMwNxbeTES6PyCS4DfEjFA" target="blank" class="fa fa-youtube"></a></li>
+            </ul>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav ml-auto">
+                <a class="nav-item nav-link" href="./index.html">ABOUT</a>
+                <a class="nav-item nav-link active" href="./portfolio.html">PORTFOLIO</a>
+                <a class="nav-item nav-link" href="./resume.html">RESUME</a>
+                <a class="nav-item nav-link" href="./contact.html">CONTACT</a>
+                </div>
             </div>
-        </div>
-    </nav>
+        </nav>
+
+            <!--FIRST ROW: HERO IMAGE-->
+            <div class="jumbotron jumbotron-fluid row-hero">
+                <div class="container">
+                    <h1 class="display-4" id="otherH1">Portfolio</h1>
+                </div>
+            </div>
     <div class="container">
-        <!--FIRST ROW: HEADER-->
-        <div class="row row-style justify-content-center" id="header">
-            <header>
-                <h1>Portfolio</h1>
-            </header>
-        </div>
         <!--SECOND ROW-->
-        <div class="row row-style text-center">
+        <div class="row row-style text-center" id="about-me">
             <!--FIRST COLUMN: PIC-->
             <div class="col-6 my-col">
                 <section>
-                    <img src="./assets/White_square.png" class="img-fluid" alt="" />
+                    <div class="card mx-auto" style="width: 30rem;">
+                        <!-- <div class="card-header">Ask Winston</div> -->
+                        <img src="./assets/askwinston.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Ask Winston</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                        <div class="card-footer text-muted">
+                            <a href="https://on-your-marc-go.github.io/Ask-Winston-Music-Rec-Engine/" class="card-link" target="_blank">Live Site</a>
+                            <a href="https://github.com/On-Your-Marc-GO/Ask-Winston-Music-Rec-Engine" class="card-link" target="_blank">GitHub Repo</a>
+                        </div>
+                      </div>
                 </section>
             </div>
             <!--SECOND COLUMN: PIC-->
             <div class="col-6 my-col">
-                <aside>
-                    <img src="./assets/White_square.png" class="img-fluid" alt="" />
-                </aside>
+                <section>
+                    <div class="card mx-auto" style="width: 30rem;">
+                        <img src="./assets/weatherdashboard.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Weather Dashboard</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                        <div class="card-footer text-muted">
+                            <a href="https://iescandon.github.io/weather-dashboard/" class="card-link" target="_blank">Live Site</a>
+                            <a href="https://github.com/iescandon/weather-dashboard" class="card-link" target="_blank">GitHub Repo</a>
+                        </div>
+                      </div>
+                </section>
             </div>
         </div>
         <!--THIRD ROW-->
-        <div class="row row-style text-center">
+        <div class="row row-style text-center row-bottom">
             <!--FIRST COLUMN: PIC-->
             <div class="col-6 my-col">
                 <section>
-                    <img src="./assets/White_square.png" class="img-fluid" alt="" />
+                    <div class="card mx-auto" style="width: 30rem;">
+                        <img src="./assets/codequiz.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Code Quiz</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                        <div class="card-footer text-muted">
+                            <a href="https://iescandon.github.io/code-quiz/" class="card-link" target="_blank">Live Site</a>
+                            <a href="https://github.com/iescandon/code-quiz" class="card-link" target="_blank">GitHub Repo</a>
+                        </div>
+                      </div>
                 </section>
             </div>
             <!--SECOND COLUMN: PIC-->
             <div class="col-6 my-col">
-                <aside>
-                    <img src="./assets/White_square.png" class="img-fluid" alt="" />
-                </aside>
-            </div>
-        </div>
-        <!--FOURTH ROW-->
-        <div class="row row-style text-center" id="row-bottom">
-            <!--FIRST COLUMN: PIC-->
-            <div class="col-6 my-col">
                 <section>
-                    <img src="./assets/White_square.png" class="img-fluid" alt="" />
+                    <div class="card mx-auto" style="width: 30rem;">
+                        <img src="" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                        <div class="card-footer text-muted">
+                            <a href="#" class="card-link" target="_blank">Live Site</a>
+                            <a href="#" class="card-link" target="_blank">GitHub Repo</a>
+                        </div>
+                      </div>
                 </section>
             </div>
-            <!--SECOND COLUMN: PIC-->
-            <div class="col-6 my-col">
-                <aside>
-                    <img src="./assets/White_square.png" class="img-fluid" alt="" />
-                </aside>
-            </div>
         </div>
-    </div>
     <!--FOOTER-->
-    <footer class="navbar fixed-bottom" id="footer">
+    <footer class="navbar" id="footer">
         <div class="container">
-            <div class="col-md-6 col-sm-5 text-center">
+            <div class="col text-center">
                 <p class="copyright d-none d-sm-block">&copy; Copyright 2020</p>
             </div>
-            <div class="col-md-6 col-sm-7 text-center">
+            <!-- <div class="col-md-6 col-sm-7 text-center">
                 <section>
                     <ul class="menu">
                         <li><a href="https://www.linkedin.com/in/inez-escandon/" target="_blank" class="fa fa-linkedin"></a></li>
@@ -98,7 +128,7 @@
                         <li><a href="https://www.youtube.com/channel/UCvMwNxbeTES6PyCS4DfEjFA" target="blank" class="fa fa-youtube"></a></li>
                     </ul>
                 </section>
-            </div>
+            </div> -->
         </div>
     </footer>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>

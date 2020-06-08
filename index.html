@@ -7,47 +7,60 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./assets/reset.css" type="text/css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Quicksand&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Red+Hat+Display:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&family=Rock+Salt&family=Sacramento&family=Satisfy&family=Syncopate:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/styles.css" type="text/css" />
     <title>Inez Escandon's Webpage</title>
 </head>
 <body>
     <!--NAVBAR-->
     <nav class="navbar navbar-expand-lg navbar-dark">
-        <a class="navbar-brand">
-            <img src="./assets/pink heart.png" height="25px" alt="" />
-        Inez Escandon
-        </a>
+        <ul class="menu">
+            <li><a href="https://www.linkedin.com/in/inez-escandon/" target="_blank" class="fa fa-linkedin"></a></li>
+            <li><a href="https://github.com/iescandon" target="_blank" class="fa fa-github"></a></li>
+            <li><a href="https://www.facebook.com/profile.php?id=7959861" target="_blank" class="fa fa-facebook"></a></li>
+            <li><a href="https://www.instagram.com/inescandon/?hl=en" target="_blank" class="fa fa-instagram"></a></li>
+            <li><a href="https://www.youtube.com/channel/UCvMwNxbeTES6PyCS4DfEjFA" target="blank" class="fa fa-youtube"></a></li>
+        </ul>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav ml-auto">
-            <a class="nav-item nav-link active" href="./index.html">Homepage</a>
-            <a class="nav-item nav-link" href="./portfolio.html">Portfolio</a>
-            <a class="nav-item nav-link" href="./contact.html">Contact</a>
+            <a class="nav-item nav-link active" href="./index.html">ABOUT</a>
+            <a class="nav-item nav-link" href="./portfolio.html">PORTFOLIO</a>
+            <a class="nav-item nav-link" href="./resume.html">RESUME</a>
+            <a class="nav-item nav-link" href="./contact.html">CONTACT</a>
             </div>
         </div>
     </nav>
-    <div class="container-fluid">
+    
         <!--FIRST ROW: HERO IMAGE-->
-        <div class="row row-hero">
-            <div class="hero-image">
-                <img src="assets/coffeelaptop.jpg" class="img-fluid" alt="image of white table with glasses, plant, coffee and laptop" />
+        <div class="jumbotron jumbotron-fluid row-hero">
+            <div class="container">
+                <h1 class="display-4">Inez Escandon</h1>
+                <p class="lead">ELEMENTARY TEACHER TURNED WEB DEVELOPER</p>
             </div>
         </div>
+
+        <!-- <div class="row row-hero">
+            <div>
+                <img class="hero-image" src="assets/background.jpg" class="img-fluid" alt="image of white table with glasses, plant, coffee and laptop" />
+                <p>Hello world</p>
+            </div>
+        </div> -->
+        <div class="container">
         <!--SECOND ROW-->
-        <div class="row row-style justify-content-center" id="row-bottom">
+        <div class="row row-style justify-content-center row-bottom" id="about-me">
             <!--COLUMN 1: PICTURE-->
             <div class="col-md-4 col-sm-6 justify-content-center">
                 <section>
-                    <img src="./assets/aboutmepic.png" class="img-fluid" alt="picture of hispanic girl with curly hair holding a small yorkshire terrier dog" />
+                    <img src="./assets/jonahpic.jpg" class="img-fluid" alt="picture of hispanic girl with curly hair holding a small yorkshire terrier dog" />
                 </section>
             </div>
             <!--COLUMN 2: ABOUT ME-->
             <div class="col-md-8 col-sm-6 justify-content-center">
                 <aside class="mt-4">
-                    <h1 class="about-me-header">About Inez Escandon</h1>
+                    <!-- <h1 class="about-me-header">About INEZ ESCANDON</h1> -->
                     <p>My name is Inez Escandon and I am currently attending The Houston Coding Bootcamp provided by UT Austin.
                        I am currently looking for a career change as a web developer and I am excited about the challenge.</p>
                        
@@ -63,12 +76,12 @@
         </div>
     </div>
         <!--FOOTER-->
-    <footer class="navbar fixed-bottom" id="footer">
+    <footer class="navbar" id="footer">
         <div class="container">
-            <div class="col-md-6 col-sm-5 text-center">
+            <div class="col text-center">
                 <p class="copyright d-none d-sm-block">&copy; Copyright 2020</p>
             </div>
-            <div class="col-md-6 col-sm-7 text-center">
+            <!-- <div class="col-md-6 col-sm-7 text-center">
                 <section>
                     <ul class="menu">
                         <li><a href="https://www.linkedin.com/in/inez-escandon/" target="_blank" class="fa fa-linkedin"></a></li>
@@ -78,10 +91,11 @@
                         <li><a href="https://www.youtube.com/channel/UCvMwNxbeTES6PyCS4DfEjFA" target="blank" class="fa fa-youtube"></a></li>
                     </ul>
                 </section>
-            </div>
+            </div> -->
         </div>
     </footer>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
+</html>
